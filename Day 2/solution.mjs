@@ -1,10 +1,5 @@
 import {input} from "./input.mjs"
 
-// const input = `A Y
-// B Y
-// C Y
-// A Z`
-
 const solve = () => {
     const matches = input.split(`\n`)
 
