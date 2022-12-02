@@ -10,7 +10,7 @@ const solve = (caloriesString, sumList) => {
     })
 
     // Part 1
-    // return Math.max(...handledLists)
+    // return Math.max(...summedLists)
 
     // Part 2
     return sumList(summedLists.sort((a, b) => b - a).slice(0, 3))
